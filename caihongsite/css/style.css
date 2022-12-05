@@ -1,0 +1,173 @@
+* { color: rgb(31, 35, 38);
+    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+}
+
+    a {text-decoration:none;}
+
+a:link,  {
+       color: black;
+    background-color: none;
+
+  }
+
+  a:visited {
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: none;
+  }
+  a:hover {
+    color: rgb(84, 77, 77);
+    text-decoration: underline;
+    
+  }
+  a:active {
+    color: black;
+    text-decoration: none;
+    background-color: none;
+    text-decoration: none;
+  }
+
+.date {
+    float: right;
+    
+
+}
+
+
+
+img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+div {
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" /> 
+
+}
+div.cvcenter { 
+    text-align: left;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-right: 150px;
+    line-height: 25px;
+
+}
+
+div.publicenter { 
+    text-align: left;
+    font-size: 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+    line-height: 25px;
+}
+
+
+h1 {
+    margin-bottom: -25px;
+    text-align: center;
+}
+
+h1.h1public {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgba(14, 61, 115, 1)
+}
+
+
+h2.cv {
+    color: rgba(14, 61, 115, 1);
+    margin-top: 40px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    
+    
+}
+
+
+.header {
+    text-align: right;
+    margin-top: 80px;
+    margin-right: 120px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+
+.footer {
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+span.a {
+    display: inline-block;
+    padding: 10px;
+}
+span.b {
+    display: inline-block;
+    padding: 10px;
+}
+span.c {
+    display: inline-block;
+    padding: 10px;
+}
+span.d {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.boldt {
+    font-weight: bold;
+}
+
+
+.ital {
+    font-style: italic;
+}
+
+br {
+    line-height: N;
+}
+
+
+
+.PHD {
+    margin-bottom: 200px;
+    font-size: 19px;
+    color: rgb(39, 43, 46);
+    line-height: 30px;
+    font-weight: lighter;
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    
+}
+
+.get {
+    font-size: 28px;
+    font-weight: bold;
+}
+#getcontact {
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+
+.p1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.adress {
+   line-height: 30px; ;
+}
