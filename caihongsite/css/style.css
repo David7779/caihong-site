@@ -85,8 +85,7 @@ h1.h1public {
 h2.cv {
     color: rgba(14, 61, 115, 1);
     margin-top: 40px;
-    margin-left: 150px;
-    margin-right: 150px;
+    text-align: left;
 }
 
 h3 {
