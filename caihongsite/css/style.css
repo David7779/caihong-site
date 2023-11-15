@@ -5,17 +5,15 @@
 
     a {text-decoration:none;}
 
-a:link,  {
-       color: black;
-    background-color: none;
 
-  }
+a:link {
+    color: black;
+}
 
-  a:visited {
+a:visited {
     
     color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: none;
   }
   a:hover {
     color: rgb(84, 77, 77);
@@ -24,8 +22,6 @@ a:link,  {
   }
   a:active {
     color: black;
-    text-decoration: none;
-    background-color: none;
     text-decoration: none;
   }
 
@@ -37,7 +33,7 @@ a:link,  {
 
 
 
-img {
+    img {
     width: 170px;
     height: 170px;
     object-fit: cover;
@@ -146,7 +142,7 @@ span.d {
 }
 
 br {
-    line-height: N;
+    line-height: normal;
 }
 
 
@@ -158,8 +154,8 @@ br {
     line-height: 30px;
     font-weight: lighter;
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
-    
 }
+
 
 .get {
     font-size: 28px;
@@ -178,4 +174,103 @@ br {
 
 .adress {
    line-height: 30px; ;
+}
+
+/* Styles for screens with a maximum width of 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    /* Adjust styles for mobile devices here */
+
+    /* For example, you can make images smaller */
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Adjust font sizes and margins for better readability on small screens */
+    div {
+        font-size: 16px;
+    }
+
+    /* Modify margins to center content on smaller screens */
+    div.cvcenter, div.publicenter {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1.h1public {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    h2.cv, h2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+
+    h3 {
+        font-weight: bold;
+        font-size: 16px; /* Reduce font size for mobile */
+    }
+
+    h4 {
+        font-size: 14px; /* Reduce font size for mobile */
+    }
+
+    .header {
+        text-align: left; /* Align header text to the left for mobile */
+        margin-top: 20px; /* Reduce top margin for mobile */
+        margin-right: 10px; /* Reduce right margin for mobile */
+        font-weight: bold;
+        margin-bottom: 30px; /* Reduce bottom margin for mobile */
+        font-size: 18px; /* Reduce font size for mobile */
+    }
+
+    .footer {
+        margin-top: 20px; /* Reduce top margin for mobile */
+        font-weight: bold;
+    }
+
+    span.a, span.b, span.c, span.d {
+        padding: 5px; /* Reduce padding for mobile */
+    }
+
+    .boldt {
+        font-weight: bold;
+    }
+
+    .ital {
+        font-style: italic;
+    }
+
+    br {
+        line-height: normal; /* Reset line-height for mobile */
+    }
+
+    .PHD {
+        margin-bottom: 100px; /* Reduce margin for mobile */
+        font-size: 16px; /* Reduce font size for mobile */
+        color: rgb(39, 43, 46);
+        line-height: 25px; /* Reduce line-height for mobile */
+        font-weight: lighter;
+    }
+
+    #getcontact {
+        margin-top: 100px; /* Reduce margin for mobile */
+        font-size: 30px; /* Adjust font size for mobile */
+    }
+
+    .p1 {
+        font-size: 24px; /* Adjust font size for mobile */
+        font-weight: bold;
+    }
+
+    .adress {
+        line-height: 25px; /* Reduce line-height for mobile */
+    }
 }
