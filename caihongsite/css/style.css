@@ -70,7 +70,7 @@ div.publicenter {
 
 
 h1 {
-    margin-bottom: -25px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -85,7 +85,12 @@ h1.h1public {
 h2.cv {
     color: rgba(14, 61, 115, 1);
     margin-top: 40px;
-    text-align: left;
+}
+
+h2 {
+    color: rgba(14, 61, 115, 1);
+    margin-top: 40px;
+    text-align: center;
 }
 
 h3 {
