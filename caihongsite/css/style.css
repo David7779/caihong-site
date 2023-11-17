@@ -1,13 +1,17 @@
+
+
+
+
 * { color: rgb(31, 35, 38);
     
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
 }
 
-    a {text-decoration:none;}
+a {text-decoration:none;}
 
 
-a:link {
-    color: black;
+.link {
+    color: blue;
 }
 
 a:visited {
@@ -33,7 +37,7 @@ a:visited {
 
 
 
-    img {
+img {
     width: 170px;
     height: 170px;
     object-fit: cover;
@@ -144,6 +148,8 @@ span.d {
 br {
     line-height: normal;
 }
+
+
 
 
 
