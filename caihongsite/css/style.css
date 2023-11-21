@@ -183,28 +183,32 @@ br {
 }
 
 /* Styles for screens with a maximum width of 768px (typical mobile screens) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     /* Adjust styles for mobile devices here */
 
     /* For example, you can make images smaller */
     img {
         width: 100px;
-        height: 100px;
+        height: auto;
+    }
+
+    .link {
+        color: cadetblue;
     }
 
     /* Adjust font sizes and margins for better readability on small screens */
     div {
-        font-size: 16px;
+        font-size: 1em;
     }
 
     /* Modify margins to center content on smaller screens */
     div.cvcenter, div.publicenter {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     h1 {
-        font-size: 20px;
+        font-size: 1.25em;
         margin-bottom: 20px;
     }
 
@@ -230,20 +234,20 @@ br {
 
     .header {
         text-align: left; /* Align header text to the left for mobile */
-        margin-top: 20px; /* Reduce top margin for mobile */
+        margin-top: 1em; /* Reduce top margin for mobile */
         margin-right: 10px; /* Reduce right margin for mobile */
         font-weight: bold;
-        margin-bottom: 30px; /* Reduce bottom margin for mobile */
+        margin-bottom: 1em; /* Reduce bottom margin for mobile */
         font-size: 18px; /* Reduce font size for mobile */
     }
 
     .footer {
-        margin-top: 20px; /* Reduce top margin for mobile */
+        margin-top: 1em; /* Reduce top margin for mobile */
         font-weight: bold;
     }
 
     span.a, span.b, span.c, span.d {
-        padding: 5px; /* Reduce padding for mobile */
+        padding: 0.3125em; /* Reduce padding for mobile */
     }
 
     .boldt {
